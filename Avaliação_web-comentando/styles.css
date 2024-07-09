@@ -1,0 +1,103 @@
+/* Estilos globais para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;  /* Define a fonte principal para o corpo do documento */
+    margin: 0;                       /* Remove margem padrão */
+    padding: 0;                      /* Remove preenchimento padrão */
+    background-color: #f1f1f1;       /* Define a cor de fundo para o corpo do documento */
+}
+
+/* Estilos para as seções principais do layout: cabeçalho, navegação, conteúdo principal e rodapé */
+header, nav, main, footer { 
+    width: 100%;                     /* Define a largura de cada elemento como 100% da largura do viewport */
+    max-width: 1200px;               /* Define a largura máxima de cada elemento */
+    margin: 0 auto;                  /* Centraliza horizontalmente os elementos com margens automáticas */
+    padding: 20px;                   /* Adiciona preenchimento interno de 20px a cada elemento */
+}
+
+/* Estilos específicos para o cabeçalho */
+header {
+    background-color: #333;          /* Define a cor de fundo do cabeçalho */
+    color: #fff;                     /* Define a cor do texto dentro do cabeçalho */
+    text-align: center;              /* Centraliza o texto dentro do cabeçalho */
+}
+
+/* Estilos específicos para a navegação */
+nav {
+    background-color: #6c6c6c;       /* Define a cor de fundo da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none;           /* Remove os marcadores de lista */
+    padding: 0;                      /* Remove o preenchimento padrão */
+    text-align: center;              /* Centraliza o texto dentro da lista de navegação */
+}
+
+nav ul li {
+    display: inline;                 /* Faz com que os itens da lista sejam exibidos em linha (horizontalmente) */
+    margin-right: 20px;              /* Define a margem à direita de cada item da lista */
+}
+
+nav ul li a {
+    text-decoration: none;           /* Remove sublinhado padrão dos links */
+    color: white;                    /* Define a cor do texto dos links */
+    font-weight: bold;               /* Define o peso da fonte dos links como negrito */
+}
+
+/* Estilos específicos para o conteúdo principal */
+main {
+    background-color: #fff;          /* Define a cor de fundo do conteúdo principal */
+    margin-top: 20px;                /* Define a margem superior de 20px */
+    border-radius: 5px;              /* Adiciona bordas arredondadas */
+}
+
+/* Estilos específicos para o rodapé */
+footer {
+    background-color: #333;          /* Define a cor de fundo do rodapé */
+    color: #fff;                     /* Define a cor do texto dentro do rodapé */
+    text-align: center;              /* Centraliza o texto dentro do rodapé */
+    padding: 10px 10;                /* Define o preenchimento interno do rodapé (10px em cima e embaixo, 10px nos lados) */
+}
+
+/* Estilos específicos para a seção do conteúdo */
+section {
+    padding: 20px;                   /* Adiciona preenchimento interno de 20px à seção do conteúdo */
+}
+
+/* Estilos específicos para a seção do portfólio */
+main section ul {
+    list-style-type: none;           /* Remove os marcadores de lista */
+    padding: 0;                      /* Remove o preenchimento padrão */
+}
+
+main section ul li {
+    margin-bottom: 10px;             /* Define a margem inferior de 10px para cada item da lista */
+}
+
+/* Estilos específicos para a classe .imagem */
+.imagem {
+    width: 256px;                    /* Define a largura da imagem */
+    height: 350px;                   /* Define a altura da imagem */
+    border-radius: 30px;             /* Adiciona bordas arredondadas à imagem */
+}
+
+/* Estilos específicos para a classe .containe */
+.containe {
+    display: flex;                   /* Usa o modelo de layout flexível */
+    flex-direction: row-reverse;     /* Define a direção dos itens como linha (horizontal) e inverte a ordem dos itens */
+    padding-left: 20px;              /* Define o preenchimento à esquerda de 20px */
+}
+
+/* Estilos específicos para a classe .site */
+.site {
+    text-decoration: none;           /* Remove o sublinhado padrão */
+    color: teal;                     /* Define a cor do texto como teal */
+}
+
+/* Estilos específicos para a classe .git */
+.git {
+    background-image: url(github.png); /* Define uma imagem de fundo para a classe .git */
+    display: block;                   /* Define o elemento como bloco */
+    height: 48px;                     /* Define a altura da imagem de fundo */
+    width: 48px;                      /* Define a largura da imagem de fundo */
+    text-indent: -999999px;           /* Move o texto para fora da área visível para esconder o texto, geralmente usado para imagens de substituição */
+}

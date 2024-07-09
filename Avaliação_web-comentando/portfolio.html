@@ -1,0 +1,73 @@
+<!DOCTYPE html>  <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-br">  <!-- Abertura da tag <html> com atributo de linguagem definido como português do Brasil -->
+<head>
+    <meta charset="UTF-8">  <!-- Meta tag para especificar o conjunto de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Meta tag para configurar a viewport -->
+    <title>Nosso Portfólio</title>  <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="styles.css">  <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>Nosso Portfólio</h1>  <!-- Título principal da página dentro do cabeçalho -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>  <!-- Item de lista com link para a página inicial -->
+            <li><a href="portfolio.html">Portfólio</a></li>   <!-- Item de lista com link para a página do portfólio -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Lista dos Portfolios</h2>  <!-- Título para a lista de portfólios -->
+            <ul>
+                <li><a class="site" href="#aluno1">José Henrique</a></li>  <!-- Item de lista com link interno para José Henrique -->
+                <li><a class="site" href="#aluno2">José Rodolfo</a></li>   <!-- Item de lista com link interno para José Rodolfo -->
+                <li><a class="site" href="#aluno3">Paulo Henrique</a></li> <!-- Item de lista com link interno para Paulo Henrique -->
+            </ul>
+            
+            <!-- Seção para José Henrique -->
+            <h2>Nossos Portfolios</h2>
+            <ul>
+                <li id="aluno1"><strong>José Henrique</strong></li>  <!-- Identificação de José Henrique como forte (negrito) -->
+                <div class="containe">
+                    <img class="imagem" src="tela.jpg" alt="Imagem do aluno Henrique">  <!-- Imagem de José Henrique com classe "imagem" -->
+                    <p>
+                       Olá, meu nome é Henrique. [Texto sobre José Henrique] <!-- Texto descritivo sobre José Henrique -->
+                       <br>
+                       <a class="git" href="https://github.com/jhenriqueb" target="_blank">Github</a>  <!-- Link para o GitHub de José Henrique -->
+                    </p>
+                </div>
+            </ul>
+            
+            <!-- Seção para José Rodolfo -->
+            <ul>
+                <li id="aluno2"><strong>José Rodolfo</strong></li>  <!-- Identificação de José Rodolfo como forte (negrito) -->
+                <div class="containe">
+                    <img class="imagem" src="tela2.jpg" alt="Imagem do aluno Rodolfo">  <!-- Imagem de José Rodolfo com classe "imagem" -->
+                    <p>
+                       Olá, me chamo Rodolfo. [Texto sobre José Rodolfo] <!-- Texto descritivo sobre José Rodolfo -->
+                       <br>
+                       <a class="git" href="https://github.com/jrodolfoxx" target="_blank">Github</a>  <!-- Link para o GitHub de José Rodolfo -->
+                    </p>
+                </div>
+            </ul>
+            
+            <!-- Seção para Paulo Henrique -->
+            <ul>
+                <li id="aluno3"><strong>Paulo Henrique</strong></li>  <!-- Identificação de Paulo Henrique como forte (negrito) -->
+                <div class="containe">
+                    <img class="imagem" src="tela3.jpg" alt="Imagem do aluno Paulo">  <!-- Imagem de Paulo Henrique com classe "imagem" -->
+                    <p>
+                        Olá, me chamo Paulo Henrique. [Texto sobre Paulo Henrique] <!-- Texto descritivo sobre Paulo Henrique -->
+                        <br>
+                        <a class="git" href="https://github.com/Paulohenriquetds" target="_blank">Github</a>  <!-- Link para o GitHub de Paulo Henrique -->
+                    </p>
+                </div>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nosso Site Pessoal. Todos os direitos reservados.</p>  <!-- Texto de rodapé com informação de direitos autorais -->
+    </footer>
+</body>
+</html>
