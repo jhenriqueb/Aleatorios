@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define o tipo de codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o ajuste da página para dispositivos móveis -->
+    <title>Timeline</title> <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilo CSS personalizado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Link para o ícone do Font Awesome -->
+</head>
+<body>
+    <div class="container"> <!-- Container principal para o conteúdo -->
+        <h1 class="text-center">Timeline</h1> <!-- Título principal da página -->
+        <div id="lista" class="mt-3"></div> <!-- Local onde a lista de posts será exibida -->
+    </div>
+    
+    <!-- Modal para exibir os comentários -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Comentários</h5> <!-- Título do modal -->
+                <button type="button" class="close-btn">&times;</button> <!-- Botão para fechar o modal -->
+            </div>
+            <div class="modal-body" id="info"></div> <!-- Área onde os comentários serão exibidos -->
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
